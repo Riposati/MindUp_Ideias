@@ -1,0 +1,1 @@
+<?phprequire ("conecta.php");$data = $_POST['data'];$sql1 = mysqli_query($conexao,"update ideiasusuarios set ideia_paga = 1 where idideia = $data");?>
